@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const { OAuth2Client } = require('google-auth-library');
-const db = require('./db');
+const db = require('../db');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
